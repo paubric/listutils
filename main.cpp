@@ -90,7 +90,7 @@ void    remove_by_index(Node* &head_node, int index)
 }
 
 void    remove_by_content(Node* &head_node, int data)
-/// Removes the node numbered 'index' from list which starts with 'head_node'
+/// Removes the node which contains 'data', from list which starts with 'head_node'
 {
     Node* actual_ptr = head_node;       /// Auxiliary pointer is used to preserve the head address
     Node* previous_ptr = NULL;          /// Will hold address of node which is located before the 'actual_ptr' referenced node
